@@ -6,6 +6,7 @@ HTML/CSS/JavaScript/python/SQL資料庫
 首先利用到Python的flask套件，通常會有 app.py 跟 template、static 兩個資料夾
 * template 用來放 html 檔
 * static 用來放 css 和 js 檔
+
 ![目前框架](image/i_1.png)
 
 
