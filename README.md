@@ -44,14 +44,19 @@ navbar.html => 此檔案的設計能夠在不同尺寸的螢幕上呈現出適�
 ## 初步網頁的設計草稿
     登入頁面
 <img src="image/i_4.png" width="600" height="600" alt="Image">
+
     選擇用途
 <img src="image/i_5.png" width="600" height="600" alt="Image">
+
     數據查詢頁面
 <img src="image/i_6.png" width="600" height="600" alt="Image">
+
     新增數據
 <img src="image/i_7.png" width="600" height="600" alt="Image">
+
     新增數據頁面
 <img src="image/i_8.png" width="600" height="600" alt="Image">
+
     已儲存數據頁面
 <img src="image/i_9.png" width="600" height="600" alt="Image">
 
