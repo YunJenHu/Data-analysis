@@ -7,12 +7,12 @@ HTML/CSS/JavaScript/python/SQL資料庫
 * static 用來放 css 和 js 檔
 * template 用來放 html 檔
 
-<img src="image/i_1.png" width="300" height="200" alt="Image">
+<img src="image/i_1.png" width="300" height="600" alt="Image">
 
 
 **app.py** 是 Flask 應用程式的核心，其中包含了應用程式的主要配置和邏輯，並負責啟動整個應用。
 
-<img src="image/i_2.png" width="300" height="200" alt="Image">
+<img src="image/i_2.png" width="600" height="400" alt="Image">
 
 引入 Python 內建的 sqlite3 模組，之後將會使用到 SQLite3 資料庫，接著定義一個處理根路徑的函式，當用戶訪問網站時，會進入 'index.html' 的模板檔案。最後連接了一個 SQLite3 資料庫的函式，確保在使用資料庫時能正確地建立連線。
 
