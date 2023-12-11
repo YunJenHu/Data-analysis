@@ -1,0 +1,120 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="table-responsive">
+        <table class="table table-bordered text-center align-middle" id="table">
+            <thead class="table-secondary align-middle">
+                <tr>
+                    <th colspan="2">球員</th>
+                    <th rowspan="3">數據類別</th>
+                    <th colspan="9">二分球</th>
+                    <th colspan="9">三分球</th>
+                    <th rowspan="3">日期</th>
+                    <th rowspan="3" class="text-nowrap">備註</th>
+                </tr>
+                <tr>
+                    <th rowspan="2" class="text-nowrap">姓名</th>
+                    <th rowspan="2" class="text-nowrap">背號</th>
+                    <th colspan="5">定點投籃</th>
+                    <th colspan="4">動態投籃</th>
+                    <th colspan="5">定點投籃</th>
+                    <th colspan="4">動態投籃</th>
+                </tr>
+                <tr>
+                    <th>左0°</th>
+                    <th>左45°</th>
+                    <th>中90°</th>
+                    <th>右45°</th>
+                    <th>右0°</th>
+                    <th>左0~45°</th>
+                    <th>左45~90°</th>
+                    <th>右45~90°</th>
+                    <th>右0~45°</th>
+                    <th>左0°</th>
+                    <th>左45°</th>
+                    <th>中90°</th>
+                    <th>右45°</th>
+                    <th>右0°</th>
+                    <th>左0~45°</th>
+                    <th>左45~90°</th>
+                    <th>右45~90°</th>
+                    <th>右0~45°</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2" class="text-nowrap">測試員</td>
+                    <td rowspan="2" class="text-nowrap">87</td>
+                    <td class="text-nowrap">命中</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>10</td>
+                    <td>6</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>6</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>4</td>
+                    <td rowspan="2" class="text-nowrap">2023-10-10</td>
+                    <td rowspan="2">
+                        <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#remarkEditing">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-nowrap">出手</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="modal fade" id="remarkEditing" tabindex="-1" aria-labelledby="modal_title" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modal_title">編輯備註</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="請輸入備註" id="remark" style="height: 150px"></textarea>
+                                <label for="remark">備註</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">取消</button>
+                        <button type="button" class="btn btn-primary">儲存</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
