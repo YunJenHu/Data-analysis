@@ -7,7 +7,7 @@ HTML/CSS/JavaScript/python/SQL資料庫
 * static 用來放 css 和 js 檔
 * template 用來放 html 檔
 
-<img src="image/i_1.png" width="300" height="600" alt="Image">
+<img src="image/i_1.png" width="600" height="600" alt="Image">
 
 
 **app.py** 是 Flask 應用程式的核心，其中包含了應用程式的主要配置和邏輯，並負責啟動整個應用。
