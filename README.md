@@ -37,7 +37,7 @@ index.html =>  此檔案主要用於顯示數據的表格，並提供了備註�
 navbar.html => 此檔案的設計能夠在不同尺寸的螢幕上呈現出適應性，並包含標題、導覽按鈕，以及導覽項目的清單，讓用戶可以使用網站的不同功能。
 
 ## 目前使用到 bootstrap、jquery、font awesome
-**bootstrap**: 提供了預先設計好的 CSS 和 JavaScript 組件，可以快速構建網頁設計。
-**jquery**:  JavaScript 函式庫，簡化了與 HTML 文件之間的操作，能夠建立動態網頁。
-**font awesome**: 提供各種網頁圖標的字體庫，可以輕鬆地將向量圖示嵌入網站，並使用 CSS 控制其樣式和大小。
+* **bootstrap**: 提供了預先設計好的 CSS 和 JavaScript 組件，可以快速構建網頁設計。
+* **jquery**:  JavaScript 函式庫，簡化了與 HTML 文件之間的操作，能夠建立動態網頁。
+* **font awesome**: 提供各種網頁圖標的字體庫，可以輕鬆地將向量圖示嵌入網站，並使用 CSS 控制其樣式和大小。
 
