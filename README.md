@@ -21,6 +21,12 @@ HTML/CSS/JavaScript/python/SQL資料庫
 
 ![目前頁面](image/i_3.png) 
 
+### **base.html**
+[基本結構](basketball/templates/base.html)
+
+base.html 這個檔案定義了整個網頁的結構，包括了 HTML的基本設定、頁面的標題、連結到 CSS 和 JavaScript 的引用，以及 Bootstrap 和 jQuery 來建立網頁外觀和提供動態功能。
+
+
 ## 對數頻譜分析
 
 1. **濾波結果**：如果對數頻譜在濾波器的通帶外顯示了一條平線，則表明濾波器有效地衰減了那些頻率。
