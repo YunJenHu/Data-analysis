@@ -24,8 +24,12 @@ HTML/CSS/JavaScript/python/SQL資料庫
 ### **base.html**
 [基本結構](basketball/templates/base.html)
 
-base.html 這個檔案定義了整個網頁的結構，包括了 HTML的基本設定、頁面的標題、連結到 CSS 和 JavaScript 的引用，以及 Bootstrap 和 jQuery 來建立網頁外觀和提供動態功能。
+base.html => 此檔案定義了整個網頁的結構，包括了 HTML 的基本設定、頁面的標題、連結到 CSS 和 JavaScript 的引用，以及 Bootstrap 和 jQuery 來建立網頁外觀和提供動態功能。
 
+### **index.html**
+[數據表格](basketball/templates/index.html)
+
+index.html =>  此檔案主要用於顯示數據的表格，並提供了備註，可以做編輯的功能。
 
 ## 對數頻譜分析
 
