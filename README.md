@@ -17,7 +17,7 @@ HTML/CSS/JavaScript/python/SQL資料庫
 
 引入 Python 內建的 sqlite3 模組，之後將會使用到 SQLite3 資料庫，接著定義一個處理根路徑的函式，當用戶訪問網站時，會進入 'index.html' 的模板檔案。最後連接了一個 SQLite3 資料庫的函式，確保在使用資料庫時能正確地建立連線。
 
-執行app.py，可看到目前所設計的頁面
+  * 執行app.py，可看到目前所設計的頁面
 
 ![目前頁面](image/i_3.png) 
 
