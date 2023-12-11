@@ -42,10 +42,10 @@ navbar.html => 此檔案的設計能夠在不同尺寸的螢幕上呈現出適�
 * **font awesome**: 提供各種網頁圖標的字體庫，可以輕鬆地將向量圖示嵌入網站，並使用 CSS 控制其樣式和大小。
 
 ## 初步網頁的設計草稿
-`登入頁面`
+    登入頁面
 <img src="image/i_4.png" width="600" height="600" alt="Image">
 
-`選擇用途`
+    選擇用途
 <img src="image/i_5.png" width="600" height="600" alt="Image">
 
     數據查詢頁面
