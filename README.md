@@ -19,7 +19,7 @@ HTML/CSS/JavaScript/python/SQL資料庫
 
 執行app.py，可看到目前所設計的頁面
 
-<img src="image/i_3.png" width="600" height="600" alt="Image">
+![目前頁面](image/"i_3.png") 
 
 ## 對數頻譜分析
 
